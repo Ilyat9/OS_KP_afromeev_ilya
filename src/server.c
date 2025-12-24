@@ -127,7 +127,6 @@ int main() {
 
                     // Уведомляем текущего игрока
 
-Илья, [24.12.2025 15:57]
 res.type = RES_WAITING;
                     sprintf(res.message, "Joined game '%s'. Waiting (%d/%d)...", games[found].name, games[found].current_players, games[found].max_players);
                     send_response(req.client_pid, &res);
